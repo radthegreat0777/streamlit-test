@@ -17,7 +17,8 @@ with col1:
     context = st.text_area("Text Area for context",
                            height=150, placeholder="Enter Context Here...")
     question = st.text_input("Input Box for question",
-                             height=150, placeholder="Enter Question Here...")
+                             placeholder="Enter Question Here...")
+
 
     submit_btn = st.button("Get Answer", type="primary")
 
