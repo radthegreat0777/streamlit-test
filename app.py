@@ -62,9 +62,4 @@ if submit_btn:
             label="Confidence Score",
             value=f"{result['score']:.4f}"
         )
-        #display the answer
-        st.markdown("---")
-        st.markdown("### 📝 Detailed Output")
-        st.json(result["answer"])
-
 
