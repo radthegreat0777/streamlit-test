@@ -30,19 +30,20 @@ with col1:
     context = st.text_area(
         "Context",
         height=180,
-        placeholder="Enter context here..."
+        placeholder="Enter Context here...Include all relevant information needed to answer the question."
     )
 
     question = st.text_input(
         "Question",
-        placeholder="Enter your question here..."
+        placeholder="Enter your Question here...Make sure it relates to the provided context."
     )
 
     submit_btn = st.button("Get Answer", type="primary")
 
 with col2:
     st.markdown("### ℹ️ About")
-    st.markdown("Powered by **C-Clarke Institute**")
+    st.markdown("Powered by **RadTech Systems**"
+                "This AI-powered app answers questions based on a given text context using a transformer-based language model.")
 
 # -----------------------------
 # Logic
