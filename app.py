@@ -5,7 +5,7 @@ st.set_page_config(page_title="AI Question Answering App", page_icon="🤖")
 
 @st.cache_resource
 def load_model():
-    return pipeline("question_answering", model="deepset/roberta-base-squad2")
+    return pipeline("question-answering", model="deepset/roberta-base-squad2")
 
 qa_model = load_model()
 
@@ -33,4 +33,3 @@ if context and question and submit_btn:
 
 else:
     st.markdown("Invalid Input...")
-
