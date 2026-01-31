@@ -42,7 +42,7 @@ with col1:
 
 with col2:
     st.markdown("### ℹ️ About")
-    st.markdown("Powered by **RadTech Systems**"
+    st.markdown("Powered by **RadTech Systems**\n\n"
                 "This AI-powered app answers questions based on a given text context using a transformer-based language model.")
 
 # -----------------------------
